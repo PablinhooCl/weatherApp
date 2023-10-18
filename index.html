@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="weatherCard">
+    <form action="" id="locationForm">
+        <input type="text" id="locationInput" pattern="^[a-zA-Z]+$" placeholder="Location"></input> 
+        <input type="submit">
+    </form>    
+    <div class="mainInfo">
+        <img src="" alt="" id="weatherCon">
+        <div id="temp"></div>
+        <div id="location"></div>
+    </div>
+    <div id="humidity"></div>
+    <div id="windSpeed"></div>
+    </div>
+    <div id="loading" style="display: none;">
+        Loading...
+      </div>
+    <script src="index.js"></script>
+</body>
+</html>
